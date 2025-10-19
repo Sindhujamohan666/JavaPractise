@@ -9,11 +9,18 @@ public class ReverseNumberusingmath {
         System.out.println("Enter any int");
         int input = sc.nextInt();
         int rev=0;
-        while(input!=0) {
-            int digit = input % 10; //gets last digit
+        int temp = input;  // ✅ Keep a copy of the original number for palindrome cond
+        while(temp!=0) {
+            int digit = temp % 10; //gets last digit
             rev= rev*10+digit;  //reversed
-            input=input/10;  //remove last
+            temp=temp/10;  //remove last
         }
         System.out.println(rev);
+        if(input==rev)
+            System.out.println("Palindrome number");
+        else
+            System.out.println("Not a palindrome");
+
+
     }
 }

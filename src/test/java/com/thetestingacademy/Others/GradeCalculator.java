@@ -1,4 +1,4 @@
-package com.thetestingacademy;
+package com.thetestingacademy.Others;
 import java.util.Scanner;
 public class GradeCalculator {
     public static void main(String[] args) {

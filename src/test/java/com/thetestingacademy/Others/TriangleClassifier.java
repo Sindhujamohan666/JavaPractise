@@ -1,4 +1,4 @@
-package com.thetestingacademy;
+package com.thetestingacademy.Others;
 
 public class TriangleClassifier {
     public static void main(String[] args) {

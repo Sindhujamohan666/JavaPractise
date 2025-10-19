@@ -1,4 +1,4 @@
-package com.thetestingacademy;
+package com.thetestingacademy.Others;
 
 public class Printingtables {
     public static void main(String[] args) {

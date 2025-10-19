@@ -23,4 +23,11 @@ public class Anagram {
             System.out.println("Not an anagram");
         }
     }
+
+    public static class LongestcommonPrefix {
+        //Find the longest common prefix in an array of strings.
+        public static void main(String[] args) {
+
+        }
+    }
 }
