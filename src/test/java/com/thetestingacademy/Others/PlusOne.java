@@ -1,4 +1,4 @@
-package com.thetestingacademy;
+package com.thetestingacademy.Others;
 
 import java.util.Arrays;
     //998+1=999{9,9,9}   999+1=1000{1,0,0,0}
