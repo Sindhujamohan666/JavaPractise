@@ -1,4 +1,4 @@
-package com.thetestingacademy.String;
+package com.thetestingacademy.String.Diff;
 
 public class LongestcommonPrefix {
     //Find the longest common prefix in an array of strings.
