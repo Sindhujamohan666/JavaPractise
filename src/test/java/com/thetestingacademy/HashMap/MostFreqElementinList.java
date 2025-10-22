@@ -9,6 +9,7 @@ public class MostFreqElementinList {
         List<Integer> list = Arrays.asList(3, 1, 2, 3, 4, 3, 2, 2, 2);
 
         Map<Integer,Integer> freqmap=new HashMap<>();
+
         for(int num:list){
             freqmap.put(num,freqmap.getOrDefault(num,0)+1);
         }
@@ -23,4 +24,6 @@ public class MostFreqElementinList {
         }
         System.out.println("Most frequent element is"+mostfreq);
     }
-}
+
+    }
+
